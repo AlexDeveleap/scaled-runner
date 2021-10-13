@@ -1,2 +1,12 @@
 .DS_Store
+tf-src/*
+notes.md
+*.pem
+*.zip
+
+tf/.terraform/*
+*.tfvars
+*.tfstate
+*.tfstate.*
+
 tf/*
