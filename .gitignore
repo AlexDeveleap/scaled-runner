@@ -3,6 +3,7 @@ tf-src/*
 notes.md
 *.pem
 *.zip
+*.log
 
 tf/.terraform/*
 *.tfvars
