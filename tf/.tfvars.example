@@ -1,0 +1,25 @@
+### AWS
+aws_region = "us-east-2"
+vpc_id = "vpc-id"
+subnet_ids = ["subnet_id_A","subnet_id_B","subnet_id_C"]
+tags = { "Owner" : "Me" , "Project" : "My"} 
+environment = "my-env"
+
+### GitHub
+github_app = {
+    key_base64     = "base64key.pem"
+    id             = "1"
+    webhook_secret = "some_secret"
+}
+
+### Runner config
+enable_organization_runners = false
+runner_extra_labels = "github,runner"
+instance_type = "t2.micro"
+runners_maximum_count = 5
+runner_as_root = false
+enable_ssm_on_runners = true
+
+webhook_lambda_zip = "../webhook.zip"
+runners_lambda_zip = "../runners.zip"
+runner_binaries_syncer_lambda_zip = "../runner-binaries-syncer.zip"

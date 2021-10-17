@@ -10,4 +10,3 @@ tf/.terraform/*
 *.tfstate
 *.tfstate.*
 
-tf/*
