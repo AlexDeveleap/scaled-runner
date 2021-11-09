@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Testing Merge 2!
+        run: echo Testing Merge 23!
 
 
